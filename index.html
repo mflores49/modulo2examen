@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -19,27 +19,28 @@
 </head>
 
 <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light navbar-light transparente"> <img src="" alt="">
+        <div class="container">
+            <a class="navbar-brand text-white"> <img src="assets/img/viajes.svg" width="25" alt=""> Viajes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav justify-content-end " id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link text-white"  href="#">Inicio</a>
+                    <a class="nav-link text-white"  href="#">Quienes Somos</a>
+                    <a class="nav-link text-white" href="#">Destacados</a>
+                    <a class="nav-link text-white" href="#">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <header>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval" class="carousel slide bd-carrusel" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid mx-4">
-                        <a class="navbar-brand" href="#" src="assets/img/viajes.svg">Viajes</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
-                            <div class="navbar-nav ">
-                                <a class="nav-link" href="#">Inicio</a>
-                                <a class="nav-link" href="#">Quienes Somos</a>
-                                <a class="nav-link" href="#">Destacados</a>
-                                <a class="nav-link" href="#">Contacto</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
+               
                 <div class="carousel-item active" data-bs-interval="5000">
                     <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="imagen">
                 </div>
@@ -67,9 +68,9 @@
         <section class="container">
             <br>
             <br>
+            <hr>
             <h2>¿QUIENES SOMOS?</h2>
             <br>
-
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <i id="icon" class="fa-solid fa-plane"></i>
@@ -117,12 +118,14 @@
 
 
         <section class="container"> <!-- tarjetas -->
+            <hr>
             <h2>DESTACADOS</h2>
+            
             <br>
             <br>
             <div>
                 <div class="row">
-                    <div class="col-md-4 col-lg-3 m-auto"> <!-- tarjetas 1 -->
+                    <div class="col-md-4 col-lg-3"> <!-- tarjetas 1 -->
                         <div class="card">
                             <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -134,7 +137,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 m-auto"> <!-- tarjetas 2 -->
+                    <div class="col-md-4 col-lg-3 "> <!-- tarjetas 2 -->
                         <div class="card">
                             <img src="assets/img/card2.jpg" class="card-img-top" alt="img">
                             <div class="card-body">
@@ -146,7 +149,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 m-auto"> <!-- tarjetas 3 -->
+                    <div class="col-md-4 col-lg-3 "> <!-- tarjetas 3 -->
                         <div class="card">
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="img">
                             <div class="card-body">
@@ -158,7 +161,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 m-auto"> <!-- tarjetas 4-->
+                    <div class="col-md-4 col-lg-3 "> <!-- tarjetas 4-->
                         <div class="card">
                             <img src="assets/img/card4.jpg" class="card-img-top" alt="img">
                             <div class="card-body">
@@ -175,7 +178,9 @@
         <br>
         <br>
         <section class="container"> <!-- contacto -->
+            <hr>
             <h2>CONTACTO</h2>
+            
             <br>
             <form>
                 <div class="mb-3">
@@ -198,17 +203,20 @@
     <br>
 
 
-    <footer>  <!-- pie de página -->
-        <div class="container ">
-            <nav class="navbar">
-                <h3 class="mx-4"> VIAJES CHILE</h3>
-                <a class="navbar-brand mx-5" href="#">
-                    <i id="icons2" class="fa-brands fa-github"></i>
-                    <i id="icons2" class="fa-brands fa-linkedin"></i>
-                    <i id="icons2" class="fa-brands fa-square-twitter"></i>
-                    <i id="icons2" class="fa-brands fa-square-facebook"></i>
-                </a>
-            </nav>
+    <footer> <!-- pie de página -->
+
+        <div class="container">
+            <a class="logo" href="#"> Viajes Chile </a>
+            <div class="">
+                <div class=" icons ms-auto mb-2" style="align-items: end">
+                    <a class="text-white" href="https://github.com/"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a class="text-white" href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="text-white" href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a class="text-white" href="https://www.facebook.com/"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
 
